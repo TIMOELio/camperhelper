@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-title {
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    font-size: 20px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0%;
+}
+
+#packliste {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#checkliste {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
